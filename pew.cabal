@@ -14,7 +14,7 @@ library
 										Pew.Logger.Output.Json, 
 										Pew.Logger.Output.Console,
 										Pew.Logger.Implicit
-	build-depends:    base ^>=4.16.4.0, bytestring, time, containers, aeson, text, ansi-terminal
+	build-depends:    base >=4.16.4.0, bytestring, time, containers, aeson, text, ansi-terminal
 	hs-source-dirs:   src
 	default-language: Haskell2010
 	ghc-options: -Wall
